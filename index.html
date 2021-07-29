@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="drawing-colors" class="drawing-colors">
+        <div class="color-circle active" data-color="red" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="green" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="blue" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="orange" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="yellow" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="black" onclick="selectColor(this)"></div>
+    </div>
+
+    <div class="board">
+        <canvas width="800" height="600"></canvas>
+    </div>
+
+    <a href="" download="my-canvas.png">Download</a>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
